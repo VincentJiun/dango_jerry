@@ -85,7 +85,8 @@
         - git remote -v 檢視目前所有遠端 url
 
     - git push : 推送檔案至遠端github
-        - 
+        - git push -u origin main : 第一次push (預設會推送至main分支)
+        - git push -u origin (branch) : 推送至遠端的branch (第一次push)
 
 
 
