@@ -3,6 +3,11 @@
 ### 檔案管理
     - git version : 查詢版本號
 
+    - 清除緩存
+        - git config --local --unset credential.helper
+        - git config --global --unset credential.helper
+        - git config --system --unset credential.helper
+
     - 全域資訊
         - git config --global user.name (username) : 設定使用者名稱
         - git config --global user.email (email)   : 設定使用者信箱
@@ -87,6 +92,13 @@
     - git push : 推送檔案至遠端github
         - git push -u origin main : 第一次push (預設會推送至main分支)
         - git push -u origin (branch) : 推送至遠端的branch (第一次push)
+
+    - git pull : 將遠端的檔案拉回本地端
+
+    - .gitignore (不須控管的檔案)
+
+    - git clone : clone github檔案
+        - git clone (github url)
 
 
 
